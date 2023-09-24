@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pcv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#673AB7"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ipAddressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="IP Address: 192.168.1.1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/countryNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ipAddressTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Country: Pakistan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countryNameTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="City: Lahore (Block G-One)"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/postalCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cityTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Postal Code: 54660"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/latitudeLongitudeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postalCodeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Latitude: 31.5171, Longitude: 74.3434"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/continentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/latitudeLongitudeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Continent: Asia"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/timeZoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/continentTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Time Zone: Asia/Karachi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ispTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeZoneTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="ISP: KK Networks (Pvt) Ltd."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/organizationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ispTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Organization: Fast Networks Private Limited"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/connectionTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/organizationTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Connection Type: Corporate"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/autonomousSystemTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/connectionTypeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Autonomous System: 136969"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/asOrganizationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/autonomousSystemTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="AS Organization: KK Networks (Pvt) Ltd."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/userTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/asOrganizationTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="User Type: Business"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
