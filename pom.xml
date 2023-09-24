@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.zenara1n</groupId>
+    <artifactId>ip-geography-kit</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <description>IP Geography Kit is a powerful and easy-to-use Android library that enables you to effortlessly retrieve detailed geographical information based on an IP address. Whether you're building location-aware apps, enhancing user experiences, or simply curious about the world, our library simplifies the process of accessing rich geo-location data.</description>
+</project>
