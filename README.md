@@ -47,7 +47,7 @@ Add the library dependency to your app-level `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation 'com.github.zenara1n:ip-geography-kit:1.0.0’
+    implementation 'com.github.zenara1n:ip-geography-kit:1.0.1’
 }
 ```
 
