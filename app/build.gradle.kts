@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ra1n.ipgeographykit"
+    namespace = "com.ra1n.example"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.ra1n.ipgeographykit"
+        applicationId = "com.ra1n.example"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

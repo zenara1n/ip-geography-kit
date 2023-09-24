@@ -1,4 +1,4 @@
-package com.ra1n.ipgeographykit;
+package com.ra1n.example;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ra1n.ipgeographykit", appContext.getPackageName());
+        assertEquals("com.ra1n.ipgeographykit.test", appContext.getPackageName());
     }
 }

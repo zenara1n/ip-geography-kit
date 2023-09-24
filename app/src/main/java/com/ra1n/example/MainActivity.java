@@ -1,4 +1,4 @@
-package com.ra1n.ipgeographykit;
+package com.ra1n.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,9 +10,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.material.progressindicator.LinearProgressIndicator;
-import com.ra1n.ipgeographykit.model.Country;
+import com.ra1n.ipgeographykit.GeoLocationHelper;
 import com.ra1n.ipgeographykit.model.GeoLocation;
-import com.ra1n.ipgeographykit.model.Names__2;
 
 public class MainActivity extends AppCompatActivity {
     TextView ipAddrTextView, countryNameTextView, cityTextView, postalCodeTextView, latitudeLongitudeTextView, continentTextView, timeZoneTextView, ispTextView, organizationTextView, connectionTypeTextView, autonomousSystemTextView, asOrganizationTextView, userTypeTextView, error;

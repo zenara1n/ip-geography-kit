@@ -1,4 +1,4 @@
-package com.ra1n.ipgeographykit;
+package com.ra1n.example;
 
 import org.junit.Test;
 
