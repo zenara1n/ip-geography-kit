@@ -174,6 +174,7 @@ If you encounter any issues, have questions, or want to contribute to the IP Geo
 
 - **GitHub Repository**: [IP Geography Kit)](https://github.com/zenara1n/ip-geography-kit)
 - **Email**: zxzayn@gmail.com
+- **linkedin**: [linkedin](https://www.linkedin.com/in/zaynal/)
 
 Your feedback helps us improve the library and provide better support to our users.
 
